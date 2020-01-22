@@ -6,15 +6,6 @@
               pluginFormats="buildVST3">
   <MAINGROUP id="hHBq0S" name="synthFramework">
     <GROUP id="{694C56FB-573C-64AB-601F-F748AAF5F0EB}" name="Source">
-      <FILE id="fuLCUy" name="PluginProcessor.cpp" compile="1" resource="0"
-            file="Source/PluginProcessor.cpp"/>
-      <FILE id="eB7AEp" name="PluginProcessor.h" compile="0" resource="0"
-            file="Source/PluginProcessor.h"/>
-      <FILE id="wVL46f" name="PluginEditor.cpp" compile="1" resource="0"
-            file="Source/PluginEditor.cpp"/>
-      <FILE id="thdEwR" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
-      <FILE id="mptIoE" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
-      <FILE id="iUZqSn" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
       <GROUP id="{254E551D-059B-D2F7-3DD2-E9F76E9CA97C}" name="Maximilian">
         <GROUP id="{F34F2C93-1DD5-7760-6EE3-0F2B11F2E144}" name="libs">
           <FILE id="mCoo2Y" name="fft.cpp" compile="1" resource="0" file="../../../../../../Development Libraries/Maximilian/libs/fft.cpp"/>
@@ -38,7 +29,22 @@
         <FILE id="ELBm5b" name="stb_vorbis.c" compile="1" resource="0" file="../../../../../../Development Libraries/Maximilian/stb_vorbis.c"/>
         <FILE id="FZJ1da" name="stb_vorbis.h" compile="0" resource="0" file="../../../../../../Development Libraries/Maximilian/stb_vorbis.h"/>
       </GROUP>
+      <FILE id="fuLCUy" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="eB7AEp" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="wVL46f" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="thdEwR" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="mptIoE" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
+      <FILE id="iUZqSn" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
+      <FILE id="Zj2UKG" name="Oscillator.cpp" compile="1" resource="0" file="Source/Oscillator.cpp"/>
+      <FILE id="vfrmxE" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
+      <FILE id="Y471ZV" name="Envelope.cpp" compile="1" resource="0" file="Source/Envelope.cpp"/>
+      <FILE id="QFVFDo" name="Envelope.h" compile="0" resource="0" file="Source/Envelope.h"/>
     </GROUP>
+    <FILE id="HAI1Ro" name="Filter.cpp" compile="1" resource="0" file="Source/Filter.cpp"/>
+    <FILE id="l7zLN8" name="Filter.h" compile="0" resource="0" file="Source/Filter.h"/>
   </MAINGROUP>
   <EXPORTFORMATS>
     <VS2019 targetFolder="Builds/VisualStudio2019">
